@@ -1,11 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Aprendendo colocar imagens de fundo</title>
+
+    <style>
+        body{
+            background-image: url("imagens/pattenr-001.jpg");
+        }
+        div.quadrado{
+            display: inline-block;
+            border: 2px solid black;
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+            background-color: rgb(138, 136, 134);
+        }
+
+        div#q1{
+            background-image: linear-gradient(to bottom, red, yellow);
+        }
+
+        div#q2{
+            background-color: aqua;
+        }
+
+        div#q3{
+            background-image: url("imagens/pattenr-003.jpg");
+        }
+    </style>
 </head>
 <body>
+
+    <div class="quadrado" id="q1">
+        
+
+    </div>
+
+    <div class="quadrado" id="q2">
+
+    </div>
+
+    <div class="quadrado" id="q3">
+
+    </div>
     
 </body>
 </html>
