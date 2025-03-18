@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Completo</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            background-color: #f2f2f2;
+        }
+        header{
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav a{
+            color: white;
+            text-decoration: none;
+        }
+        nav a:hover{
+            background-color: #555;
+        }
+        section{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Site</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Conteúdo da página inicial.</p>
+        </section>
+        
+        <section id="about">
+            <h2>Sobre</h2>
+            <p>Informações sobre a empresa ou pessoa.</p>
+        </section>
+        
+        <section id="services">
+            <h2>Serviços</h2>
+            <p>Descrição dos serviços oferecidos.</p>
+        </section>
+        
+        <section id="contact">
+            <h2>Contato</h2>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message"></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
+    
