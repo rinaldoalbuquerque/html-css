@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="estilos/contato.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Entre em Contato</h1>
+    </header>
+
+    <section class="contato">
+        <h2>Fale comigo</h2>
+        <form action="#" method="POST" class="formulario-contato">
+            <div class="campo">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="campo">
+                <label for="numero">Número:</label>
+                <input type="tel" id="numero" name="numero" required>
+            </div>
+
+            <div class="campo">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            </div>
+
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+
+        <div class="redes-sociais">
+            <h3>Me siga nas redes sociais</h3>
+            <ul>
+                <li><a href="https://github.com/rinaldoalbuquerque" target="_blank" class="social-icon"><i class="fab fa-github"></i> GitHub</a></li>
+               
+                <li><a href="https://www.linkedin.com/in/seuusuario" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                
+                <li><a href="https://www.instagram.com/codigodw?igsh=MXI2amF4Nnk2MXhlbg==" target="_blank" class="social-icon"><i class="fab fa-instagram"></i> Instagram</a></li>
+               
+                <li><a href="https://x.com/home" target="_blank" class="social-icon"><i class="fab fa-twitter"></i> Twitter</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="voltar">
+        <a href="index.html" class="btn voltar-btn">Voltar à Página Principal</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Rinaldo Albuquerque | Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
