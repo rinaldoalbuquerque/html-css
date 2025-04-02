@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu responsivo</title>
+    
+    <link rel="stylesheet" href="estilos/style.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opcao 1</a></li>
+                <li><a href="#">Opcao 2</a></li>
+                <li><a href="#">Opcao 3</a></li>
+                <li><a href="#">Opcao 4</a></li>
+                <li><a href="#">Opcao 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Query</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quo, ducimus tempora consequuntur, sit alias ad dicta doloribus commodi ratione ea laudantium qui quis cupiditate deserunt voluptatem exercitationem accusantium laboriosam!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam impedit minus sit corrupti ipsa quam, a possimus neque quo eum ut beatae sed, sapiente dolorem praesentium? Fuga deserunt nesciunt iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui unde consequuntur itaque impedit? Odio consequuntur iusto magni possimus repellendus quas eius placeat impedit similique. Saepe consequuntur nihil reprehenderit alias veniam!  </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint similique modi quasi sequi, culpa possimus porro laboriosam magnam repellendus labore delectus blanditiis cupiditate explicabo reiciendis provident minus asperiores expedita eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati adipisci corporis ducimus cupiditate quis, sunt nobis, rem quibusdam dolore perspiciatis, iusto corrupti? Itaque fugiat dignissimos possimus ipsum ex, architecto eaque.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
