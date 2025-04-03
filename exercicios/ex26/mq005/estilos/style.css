@@ -23,7 +23,7 @@ header > h1{
 }
 
 menu{
-    display: block;
+    display: none;
 }
 
 menu ul{
@@ -31,13 +31,14 @@ menu ul{
 }
 
 menu > ul > li > a{
-    display: none;
+    display: block;
     padding: 10px;
     text-decoration: none;
     text-align: center;
     background-color: rgb(103, 154, 212);
     border-top: 2px solid rgb(9, 52, 87);
     color: white;
+    border-radius: 5px;
 }
 
 i#burguer{
